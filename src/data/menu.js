@@ -6,7 +6,7 @@ export const BRAND_INFO = {
   name: "SEBLAKKUY",
   tagline: "Pedes Nagih, Toping Ngeramein",
   subTagline: "Seblak street food level up khas Gen Z! Topping melimpah, level pedas fleksibel dari ramah perut sampai merem melek.",
-  whatsappNumber: "6281234567890", 
+  whatsappNumber: "6281234567890",
   address: "Jl. Contoh Raya No. 123, Pemalang, Jawa Tengah",
   mapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.58584879208!2d109.3090623!3d-6.8897534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6dcf3586d13267%3A0x4027a76e352efe0!2sPemalang%2C%20Pemalang%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid",
   openHours: "Setiap Hari, 10.00 - 22.00 WIB",
@@ -54,8 +54,7 @@ export const MENU_DATA = [
     price: 15000,
     badge: "Best Seller",
     badgeColor: "bg-amber-500 text-white",
-    image: "https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&w=600&q=80",
-    defaultLevel: 2
+    image: "https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 2,
@@ -65,8 +64,7 @@ export const MENU_DATA = [
     price: 18000,
     badge: "Favorit",
     badgeColor: "bg-[#C8102E] text-white",
-    image: "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&w=600&q=80",
-    defaultLevel: 3
+    image: "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 3,
@@ -74,10 +72,8 @@ export const MENU_DATA = [
     category: "Seblak",
     description: "Kuah pedas gurih bertabur keju mozzarella lumer, dumpling keju, & sosis bratwurst impian.",
     price: 20000,
-    badge: "Lumer Keju",
     badgeColor: "bg-amber-400 text-gray-900 font-extrabold",
-    image: "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=600&q=80",
-    defaultLevel: 2
+    image: "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 4,
@@ -85,10 +81,8 @@ export const MENU_DATA = [
     category: "Seblak",
     description: "Sensasi laut berkuah pedas! Udang segar, cumi kenyal, bakso ikan, & dumpling seafood.",
     price: 22000,
-    badge: "Special Seafood",
-    badgeColor: "bg-emerald-600 text-white",
-    image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80",
-    defaultLevel: 3
+    Color: "bg-emerald-600 text-white",
+    image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 5,
@@ -96,10 +90,8 @@ export const MENU_DATA = [
     category: "Seblak",
     description: "Olahan cabai hijau segar pilihan dengan aroma kencur wangi, ceker empuk & bakso sapi iga.",
     price: 18000,
-    badge: "Varian Baru",
     badgeColor: "bg-green-600 text-white",
-    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80",
-    defaultLevel: 3
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 6,
@@ -107,10 +99,8 @@ export const MENU_DATA = [
     category: "Seblak",
     description: "Porsi brutal untuk yang lapar berat! Semua topping gabung: ceker, sosis, bakso, cireng, & dumpling.",
     price: 28000,
-    badge: "Pedas Maksimal",
     badgeColor: "bg-red-700 text-white",
-    image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
-    defaultLevel: 5
+    image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80"
   },
 
   // CATEGORY 2: MINUMAN (DRINKS)
@@ -120,10 +110,8 @@ export const MENU_DATA = [
     category: "Minuman",
     description: "Penawar pedas alami! Es teh seduh segar dengan gula asli dingin menyegarkan tenggorokan.",
     price: 5000,
-    badge: "Segar Bgt",
     badgeColor: "bg-sky-500 text-white",
-    image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=600&q=80",
-    defaultLevel: 0
+    image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=600&q=80"
   },
   {
     id: 8,
@@ -131,7 +119,6 @@ export const MENU_DATA = [
     category: "Minuman",
     description: "Perasan jeruk segar asli dingin manis asam balance banget abis makan seblak pedas.",
     price: 6000,
-    badge: "Segar Jeruk",
     badgeColor: "bg-orange-500 text-white",
     image: "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=600&q=80",
     defaultLevel: 0
@@ -164,7 +151,6 @@ export const MENU_DATA = [
     category: "Minuman",
     description: "Alpukat mentega kocok kental bertabur susu kental manis cokelat & es serut manis.",
     price: 12000,
-    badge: "Super Creamy",
     badgeColor: "bg-emerald-600 text-white",
     image: "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?auto=format&fit=crop&w=600&q=80",
     defaultLevel: 0

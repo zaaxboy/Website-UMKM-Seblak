@@ -87,9 +87,6 @@ export default function SpicyAndToppingBuilder() {
                   <Flame className="w-5 h-5 text-[#C8102E]" />
                   <span>1. Pilih Level Pedas (Level 1 - 5)</span>
                 </label>
-                <span className="text-xs font-bold text-[#C8102E] bg-red-50 px-2.5 py-1 rounded-full">
-                  Wajib Pilih
-                </span>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
