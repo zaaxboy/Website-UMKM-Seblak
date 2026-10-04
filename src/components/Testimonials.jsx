@@ -29,8 +29,6 @@ export default function Testimonials() {
               key={testi.id}
               className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col justify-between relative group hover:-translate-y-1.5"
             >
-              {/* QUOTE ICON */}
-              <Quote className="w-10 h-10 text-red-100 group-hover:text-red-200 transition-colors absolute top-6 right-6" />
 
               <div>
                 {/* RATING STARS */}

@@ -158,11 +158,11 @@ export const MENU_DATA = [
 ];
 
 export const SPICY_LEVELS = [
-  { level: 1, name: "Anak Kecil", emoji: "👶", desc: "Pedes santai, aman buat pemula" },
-  { level: 2, name: "Pedes Manis Santai", emoji: "😊", desc: "Pedes pas, masih santuy" },
-  { level: 3, name: "Lumayan Keringetan", emoji: "🌶️", desc: "Mulai bikin lidah bergoyang" },
-  { level: 4, name: "Merem Melek", emoji: "🔥", desc: "Pedes mantap bikin mata segar" },
-  { level: 5, name: "Neraka Dunia", emoji: "💀", desc: "Bikin ketagihan sekaligus nangis guling-guling!" }
+  { level: 1, name: "Pedes Manis", emoji: "👶", desc: "" },
+  { level: 2, name: "Pedas Sedang", emoji: "😊", desc: "" },
+  { level: 3, name: "Pedes Sekali", emoji: "🌶️", desc: "" },
+  { level: 4, name: "Pedes Banget", emoji: "🔥", desc: "" },
+  { level: 5, name: "Pedes Gila", emoji: "💀", desc: "" }
 ];
 
 export const EXTRA_TOPPINGS = [

@@ -116,14 +116,6 @@ export default function MenuSection() {
             {drinksMenu.map((item) => renderCard(item))}
           </div>
         </div>
-
-        {/* BOTTOM NOTE */}
-        <div className="text-center bg-white border border-red-100 shadow-md rounded-3xl p-6 sm:p-8 max-w-3xl mx-auto">
-          <p className="text-gray-800 text-sm sm:text-base font-semibold">
-            💡 <span className="text-[#C8102E] font-extrabold">Mau racik topping & level pedas sendiri secara bebas?</span> Gunakan fitur simulator racik custom di bawah ini!
-          </p>
-        </div>
-
       </div>
     </section>
   );
