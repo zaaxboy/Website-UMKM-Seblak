@@ -15,7 +15,7 @@ export default function Testimonials() {
         {/* HEADER SECTION */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-4 tracking-tight">
-            Review Jujur Anak Muda & Foodies 💬
+            Review Jujur Anak Muda & Foodies
           </h2>
           <p className="text-gray-600 text-base sm:text-lg mt-3">
             Bukan kata admin, ini kata ribuan Gen Z yang udah ketagihan pedasnya SEBLAKKUY!
