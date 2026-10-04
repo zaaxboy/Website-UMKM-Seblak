@@ -20,6 +20,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: 'Beranda', href: '#beranda' },
+    { name: 'Tentang UMKM', href: '#tentang' },
     { name: 'Keunggulan', href: '#keunggulan' },
     { name: 'Menu', href: '#menu' },
     { name: 'Racik Custom', href: '#racik-custom' },

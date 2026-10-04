@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import AboutSection from './components/AboutSection';
 import Features from './components/Features';
 import MenuSection from './components/MenuSection';
 import SpicyAndToppingBuilder from './components/SpicyAndToppingBuilder';
@@ -19,6 +20,9 @@ export default function App() {
       <main className="flex-1">
         {/* 2. Hero Section */}
         <Hero />
+
+        {/* 2b. Sekilas UMKM SeblakKuy Section (Sesuai foto) */}
+        <AboutSection />
 
         {/* 3. Keunggulan Section */}
         <Features />
