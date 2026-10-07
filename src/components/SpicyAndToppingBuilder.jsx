@@ -67,7 +67,7 @@ export default function SpicyAndToppingBuilder() {
         {/* HEADER SECTION */}
         <div className="text-center max-w-3xl mx-auto mb-14">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-4 tracking-tight">
-            Pilih Level Pedas & Topping Pilihan 🌶️
+            Pilih Level Pedas & Topping Pilihan
           </h2>
           <p className="text-gray-600 text-base sm:text-lg mt-3">
             Bebas mix & match! Tentukan tingkat pedasmu dan tumpuk topping kesukaanmu tanpa batas.

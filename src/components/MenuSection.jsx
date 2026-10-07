@@ -80,7 +80,7 @@ export default function MenuSection() {
         {/* MAIN SECTION TITLE */}
         <div className="text-center max-w-3xl mx-auto space-y-3">
           <h2 className="text-3xl sm:text-5xl font-black text-gray-900 tracking-tight font-heading">
-            Pilihan Seblak Pedas & Minuman Segar 😋
+            Pilihan Seblak Pedas & Minuman Segar
           </h2>
           <p className="text-gray-600 text-base sm:text-lg">
             Semua menu dibuat hangat dan segar sesuai pesananmu. Klik tombol **Pesan** untuk langsung order via WhatsApp!

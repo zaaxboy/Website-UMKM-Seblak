@@ -66,9 +66,6 @@ export default function Location() {
                   <p className="text-gray-600 text-sm font-medium">
                     +{BRAND_INFO.whatsappNumber}
                   </p>
-                  <p className="text-xs text-gray-400 mt-0.5">
-                    Respon cepat untuk pemesanan & pertanyaan delivery.
-                  </p>
                 </div>
               </div>
 
