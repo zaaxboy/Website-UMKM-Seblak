@@ -12,7 +12,7 @@ export default function Hero() {
   const slides = [
     {
       id: 0,
-      title: "Pedes Nagih, Toping Numpuk! 🔥",
+      title: "Pedes Nagih, Toping Numpuk!",
       subtitle: "Seblak street food kekinian khas Pemalang! Kuah rempah kencur asli, racik level pedas 1–5 sesukamu, plus 15+ topping melimpah.",
       buttonText: "Pesan via WhatsApp",
       img: seblakRed,
@@ -21,22 +21,22 @@ export default function Hero() {
     },
     {
       id: 1,
-      title: "Seblak Keju Lumer Creamy! 🧀",
+      title: "Seblak Keju Lumer Creamy!",
       subtitle: "Perpaduan kuah pedas gurih bertabur keju melt melted, sosis bratwurst & dumpling keju impian.",
       buttonText: "Coba Varian Keju",
       img: seblakYellow,
       flavorName: "Seblak Cheese Melted",
-      badge: "Favorit Gen-Z 🧀 Cheese Melt",
+      badge: "Favorit Gen-Z Cheese Melt",
       accentColor: "from-amber-400 to-[#FF9900]"
     },
     {
       id: 2,
-      title: "Seblak Cabe Hijau Rempah! 🌿",
+      title: "Seblak Cabe Hijau Rempah! ",
       subtitle: "Sensasi segar aroma kencur & racikan cabai hijau segar pilihan dengan ceker empuk & bakso iga.",
       buttonText: "Sensasi Cabai Hijau",
       img: seblakGreen,
       flavorName: "Seblak Cabe Hijau",
-      badge: "Rempah Kencur Asli 🌿",
+      badge: "Rempah Kencur Asli",
       accentColor: "from-emerald-500 to-green-600"
     }
   ];
@@ -223,24 +223,6 @@ export default function Hero() {
       {/* BOTTOM CREAM BAR (Avatar Testimonial, Carousel Arrows, Pagination) */}
       <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 pb-8 pt-2 relative z-20">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
-
-          {/* BOTTOM LEFT: AVATAR & TESTIMONIAL */}
-          <div className="flex items-center gap-3">
-            <img
-              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
-              alt="Avatar Pelanggan SeblakKuy"
-              className="w-10 h-10 rounded-full object-cover border-2 border-white shadow-md"
-            />
-            <div className="flex flex-col text-left">
-              <span className="text-xs text-gray-500 font-medium">5.000+ Porsi Terjual</span>
-              <a
-                href="#testimoni"
-                className="text-sm font-bold text-[#C8102E] hover:text-[#9E0B22] transition-colors inline-flex items-center gap-1 group"
-              >
-                <span>Lihat ulasan kepuasan pecinta seblak →</span>
-              </a>
-            </div>
-          </div>
 
           {/* BOTTOM CENTER: CAROUSEL CONTROL ARROWS (← →) */}
           <div className="flex items-center gap-3">
