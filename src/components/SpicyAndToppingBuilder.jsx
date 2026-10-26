@@ -144,14 +144,14 @@ export default function SpicyAndToppingBuilder() {
                         }`}
                     >
                       <div className="flex items-center justify-between">
-                        <span className="text-xl">{topping.icon}</span>
+                        {/* <span className="text-xl">{topping.icon}</span>
                         {isChecked ? (
                           <span className="bg-white/30 text-white rounded-full p-0.5">
                             <Check className="w-3.5 h-3.5" />
                           </span>
                         ) : (
                           <Plus className="w-4 h-4 text-gray-400" />
-                        )}
+                        )} */}
                       </div>
                       <div className="mt-2">
                         <div className={`font-bold text-xs ${isChecked ? 'text-white' : 'text-gray-900'}`}>
@@ -190,7 +190,7 @@ export default function SpicyAndToppingBuilder() {
 
                 {/* BASE SEBLAK */}
                 <div className="flex justify-between items-center text-gray-700">
-                  <span>Kerupuk & Bumbu Kencur Dasar</span>
+                  <span>Seblak Prasmanan</span>
                   <span className="font-bold text-gray-900">Rp {BASE_PRICE.toLocaleString('id-ID')}</span>
                 </div>
 
@@ -250,7 +250,7 @@ export default function SpicyAndToppingBuilder() {
               </button>
 
               <p className="text-[11px] text-gray-400 text-center font-medium">
-                🔒 Pesanan akan langsung diteruskan ke WhatsApp Admin SEBLAKKUY.
+                Pesanan akan langsung diteruskan ke WhatsApp Admin SEBLAKKUY.
               </p>
             </div>
 
